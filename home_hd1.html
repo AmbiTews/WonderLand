@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+  <head>
+
+      <!-- BEGIN DTM Header Tag for "IntraBuy" -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="//assets.adobedtm.com/e72b4113c11a/4d460fb82571/launch-30b8129f3135.min.js" async></script>
+<!-- END DTM Header Tag for "IntraBuy" -->
+
+      
+
+<!-- BEGIN Data Layers-->
+
+<script>
+
+var queryString = new Array();
+var digitalData=[];
+var xx=setInterval( function()
+{
+	var loginStatus=localStorage.getItem('loginStatus');
+	var userType=localStorage.getItem('userType');
+	var userCRMId=localStorage.getItem('userCRMId');
+
+		if(localStorage.getItem("userCRMId")!==null)
+		{	
+		clearInterval(xx);
+		digitalData=
+		{
+			'page':
+{
+'pageName': 'Intrabuy:OA:hd1', //to be changed as per the page
+'siteSection':'product page:hd1',
+'pageType':'product page'
+
+} ,
+			'user':
+			{
+			'loginStatus':loginStatus,
+			'userType':userType,
+			'crmID':userCRMId
+			},
+	'categoryID':'other accessories',
+'productData': 
+
+{                    
+
+'productName': '1 TB External Hard Drive',
+'id': 'OA00',
+'brand': 'Seagate',
+'category': 'Hard disks',
+'price':'100',
+'variant': ''
+
+}
+}
+
+			}
+			else{
+				clearInterval(xx);
+
+			digitalData=
+			{
+				'page':
+{
+'pageName': 'Intrabuy:OA:hd1', //to be changed as per the page
+'siteSection':'product page:hd1',
+'pageType':'product page'
+
+}  ,
+			'user':
+			{
+			'loginStatus':loginStatus,
+			'userType':userType
+			},
+	'categoryID':'other accessories',
+'productData': 
+
+{                    
+
+'productName': '1 TB External Hard Drive',
+'id': 'OA00',
+'brand': 'Seagate',
+'category': 'Hard disks',
+'price':'100',
+'variant': ''
+
+}
+}
+
+		}
+			
+			
+			
+			
+		},100);
+
+</script>
+
+<!-- END Data Layers-->
+
+                                       	<!-- Google Tag Manager -->
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+})(window,document,'script','dataLayer','GTM-PW43952');</script>
+
+<!-- End Google Tag Manager -->
+
+
+
+   
+
+
+
+
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="">
+
+    <meta name="author" content="">
+
+
+
+    <title>Shop All - Shop Here</title>
+
+
+
+    <!-- Bootstrap core CSS -->
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+    <!-- Custom fonts for this template -->
+
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+
+
+    <!-- Plugin CSS -->
+
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+	
+
+    <!-- Custom styles for this template -->
+
+    <link href="css/creative.css" rel="stylesheet">
+
+
+
+
+
+  </head>
+
+
+
+  <body id="page-top">
+
+      <!-- Google Tag Manager (noscripton) -->
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PW43952"
+
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- End Google Tag Manager (noscript) -->
+
+<style>
+
+.text-style{
+
+    color:black;
+
+    font-family:'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+
+    font-size:25px;
+
+}
+
+    </style>
+
+    
+
+
+
+<!-- Navigation -->
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+
+      <div class="container">
+
+        <a class="navbar-brand js-scroll-trigger" href="index.html">Intra Buy</a>
+
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+
+          <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+
+              <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+
+            </li>
+
+            <li class="nav-item">
+
+              <a class="nav-link js-scroll-trigger" href="index.html#portfolio">Products</a>
+
+            </li>
+
+			<li class="nav-item">
+
+			<a class="nav-link js-scroll-trigger" href="viewCart.html"><i class="fa fa-shopping-cart"></i> Cart</a></li>
+
+           
+
+            <li class="nav-item">
+
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </nav>
+
+
+
+	<header class="masthead3 text-center text-white d-flex">
+
+      <div class="container my-auto">
+
+        <div class="row">
+
+          <div class="col-lg-10 mx-auto">
+
+            <h1 class="text-uppercase">
+
+              <strong>Products You will LOVE to BUY...</strong>
+
+            </h1>
+
+          
+
+          </div>
+
+         <div class="col-lg-8 mx-auto">
+
+             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#checkout">VIEW NOW</a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </header>
+
+   
+
+    <section id="services" style="margin-top: 5rem;">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6 text-center">
+
+            <div class="service-box mt-5 mx-auto">
+
+              <img id="imgContainer" class="img-fluid" src="img/harddisk1.png" alt="">
+
+              
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 col-md-6 text-center">
+
+            <div class="service-box mt-5 mx-auto">
+
+              
+
+              <h3 id="title" class="mb-3">1 TB External Hard Drive</h3>
+
+              <p id="Description" class="text-muted mb-0">Hard Drive, USB Cable,WD Elements,Capacity:1TB,Portable,Wired,No Cloud Backup</p>
+
+			 <br>
+
+			 <p id="price" class="text-style"><B> Price : $100 </B></p>
+
+			 <hr>
+
+            </div>
+
+			<div class="container text-center" style="margin-top: 40px;">
+
+        
+
+        <a class="btn btn-primary btn-xl sr-button cd-add-to-cart" href="#">Add To Cart</a>
+
+        <br><br>
+
+        <a class="btn btn-primary btn-xl sr-button cd-Go-to-cart"  href=viewCart.html>Go to Cart</a>
+
+      </div>
+
+			
+
+          </div>
+
+          
+
+         
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <section id="contact">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-8 mx-auto text-center">
+
+            <h2 class="section-heading">Let's Get In Touch!</h2>
+
+            <hr class="my-4">
+
+            <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 ml-auto text-center">
+
+            <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
+
+            <p>123-456-6789</p>
+
+          </div>
+
+          <div class="col-lg-4 mr-auto text-center">
+
+            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
+
+            <p>
+
+              <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
+
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+<div class="cd-cart-container">
+
+	<a href="#0" class="cd-cart-trigger" style="font-size:62.5%">
+
+		Cart
+
+		<ul id="count" class="count"> <!-- cart items count -->
+
+			<li>0</li>
+
+			<li>0</li>
+
+		</ul> <!-- .count -->
+
+	</a>
+
+
+
+	<div class="cd-cart">
+
+		<div class="wrapper">
+
+			<header>
+
+				<h2>Cart</h2>
+
+				<!--<span class="undo">Item removed. <a href="#0">Undo</a></span>-->
+
+			</header>
+
+			
+
+			<div id="addedItems" class="body">
+
+				<ul>
+
+					<!-- products added to the cart will be inserted here using JavaScript -->
+
+				</ul>
+
+			</div>
+
+
+
+			<footer>
+
+				<a href="Checkout.html" class="checkout btn btn-primary sr-button"><em style="font-size:62.5%">Checkout - $<span id="checkout">0</span></em></a>
+
+			</footer>
+
+		</div>
+
+	</div> <!-- .cd-cart -->
+
+</div>
+
+
+
+    <!-- Bootstrap core JavaScript -->
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+
+    <!-- Plugin JavaScript -->
+
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+
+
+    <!-- Custom scripts for this template -->
+
+	<script src="js/main.js"></script>
+
+    <script src="js/creative.min.js"></script>
+
+	<script>
+
+
+
+        $(function () {
+
+            if (queryString.length == 0) {
+
+                if (window.location.search.split('?').length > 1) {
+
+                    var params = window.location.search.split('?')[1].split('&');
+
+                    for (var i = 0; i < params.length; i++) {
+
+                        var key = params[i].split('=')[0];
+
+                        var value = decodeURIComponent(params[i].split('=')[1]);
+
+                        queryString[key] = value;
+
+                    }
+
+                }
+
+            }
+
+            if (queryString["description"] != null && queryString["imgName"] != null && queryString["title"] != null) {
+
+               
+
+               document.getElementById('title').innerHTML = queryString["title"];
+
+               document.getElementById('imgContainer').src = 'img' + '/' + queryString["imgName"];
+
+               document.getElementById('Description').innerHTML = queryString["description"];
+
+               }
+
+			var cartCount = $("#count");
+
+			var cartTotal = localStorage.getItem('cartTotal');
+
+			var savedHTML = localStorage.getItem('saveCartValues');
+
+			$("#addedItems >ul").append(savedHTML);
+
+			$("#checkout").text(cartTotal);
+
+			var actual = $("#addedItems >ul>li").length-$("#addedItems >ul>li.product.deleted").length;
+
+			var next = actual + 1;
+
+			cartCount.find('li').eq(0).text(actual);
+
+			cartCount.find('li').eq(1).text(next);
+
+			
+
+        });
+
+		
+
+		function saveData(){
+
+		 var saveCartValues = $("#addedItems > ul").html();
+
+		 var cartTotal = $("#checkout").text();
+
+		 localStorage.setItem('saveCartValues', saveCartValues);
+
+		 localStorage.setItem('cartTotal', cartTotal);
+
+		}
+
+		
+
+		
+
+	</script>
+
+<!-- BEGIN DTM Footer Tag for "IntraBuy" -->
+
+<script type="text/javascript">_satellite.pageBottom();</script>
+
+<!-- END DTM Footer Tag for "IntraBuy" -->
+
+  </body>
+
+
+
+</html>
+
