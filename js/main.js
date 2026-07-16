@@ -203,6 +203,7 @@ if (loginBtn) {
 
     if (emailValidation) {
       console.log("Email validation is successful");
+      window.location.href = "/WonderLand/index.html";
       cookiecall();
       loginStatus = "Logged In";
       userType    = "Member";
